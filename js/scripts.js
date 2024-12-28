@@ -25,3 +25,16 @@ let pokemonList = [
       type: ['lightning', 'mouse']
     }
 ];
+
+/* Pokemon larger than 1.8ft are considered "big".
+Pokemon between 1 and 1.7ft are considered "normal", 
+and anything below 1ft is considered "tiny". */
+for (let i=0; i <pokemonList.length; i++){
+  if (pokemonList[i].height <2.5 && pokemonList[i].height >1.8){
+    console.log(pokemonList[i].name + " is a big Pokemon!");
+  } else if (pokemonList[i].height <=1.7 && pokemonList[i].height >1){
+    console.log(pokemonList[i].name + " is a normal Pokemon.");
+  } else {
+    console.log(pokemonList[i].name + " is a tiny Pokemon.");
+  }
+}
