@@ -26,8 +26,6 @@ let pokemonList = [
     }
 ];
 
-document.write(pokemonList[0, 1, 2, 3, 4]);
-
 /* Pokemon larger than 1.8ft are considered "big".
 Pokemon between 1 and 1.7ft are considered "normal", 
 and anything below 1ft is considered "tiny". */
