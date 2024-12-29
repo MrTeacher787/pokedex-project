@@ -48,6 +48,6 @@ for (let i=0; i <pokemonList.length; i++) {
 //Loop for specifying "big" Pokemon on DOM
 for (let i=0; i <pokemonList.length; i++) {
   if (pokemonList[i].height >2) {
-      document.write("<p>" + `${pokemonList[i].name} -This is a big Pokemon!` + "</p>")
+      document.write(`${pokemonList[i].name} -This is a big Pokemon!`)
   }
 }
