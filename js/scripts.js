@@ -1,27 +1,27 @@
 //Pokemon List and attributes
 let pokemonList = [
     {
-      name: "psyduck",
+      name: "Psyduck",
       height: 1.2,
       type: ['water', 'psychic']
     }, 
     {
-      name: "charmander",
+      name: "Charmander",
       height: 2.1,
       type: ['fire', 'dragon']
     }, 
     {
-      name: "squirtle",
+      name: "Squirtle",
       height: 1.7,
       type: ['water', 'monster']
     },
     {
-      name: "bulbasaur",
+      name: "Bulbasaur",
       height: 0.9,
       type: ['water', 'monster']
     },
     {
-      name: "pikachu",
+      name: "Pikachu",
       height: 1.3,
       type: ['lightning', 'mouse']
     }
