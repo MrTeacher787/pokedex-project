@@ -1,3 +1,4 @@
+//Pokemon List and attributes
 let pokemonList = [
     {
       name: "psyduck",
@@ -38,3 +39,4 @@ for (let i=0; i <pokemonList.length; i++){
     console.log(pokemonList[i].name + " is a tiny Pokemon.");
   }
 }
+
