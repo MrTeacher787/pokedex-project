@@ -40,14 +40,17 @@ for (let i=0; i <pokemonList.length; i++){
   }
 }
 
-//Loop for listing Pokemon and attribute on DOM
-for (let i=0; i <pokemonList.length; i++) {
-  document.write("<p>" + `${pokemonList[i].name}: Height- ${pokemonList[i].height}` + "</p>")
-}
+let message = "";
 
-//Loop for specifying "big" Pokemon on DOM
-for (let i=0; i <pokemonList.length; i++) {
-  if (pokemonList[i].height >2) {
-      document.write("<p>" + `${pokemonList[i].name} -This is a big Pokemon!` + "</p>")
+//`for` loop to emphasize big Pokemon
+for (let i = 0; i < pokemonList.length; i++) {
+  if (pokemonList[i].height >2){
+    message = "-Wow, that is big!";
+  } else {
+    message = "";
   }
+  document.write (
+    `${pokemonList[i].name} (height: ${pokemonList[i].height}) ${message}
+    <br>`
+  );
 }
