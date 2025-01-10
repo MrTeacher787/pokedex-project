@@ -1,31 +1,35 @@
-//Pokemon List and attributes
-let pokemonList = [
-    {
-      name: "Psyduck",
-      height: 1.2,
-      type: ['water', 'psychic']
-    }, 
-    {
-      name: "Charmander",
-      height: 2.1,
-      type: ['fire', 'dragon']
-    }, 
-    {
-      name: "Squirtle",
-      height: 1.7,
-      type: ['water', 'monster']
-    },
-    {
-      name: "Bulbasaur",
-      height: 0.9,
-      type: ['water', 'monster']
-    },
-    {
-      name: "Pikachu",
-      height: 1.3,
-      type: ['lightning', 'mouse']
-    }
-];
+//Pokemon list wrapped in IIFE
+let pokemonRepository = (function (){
+  //Pokemon List and attributes
+  let pokemonList = [
+      {
+        name: "Psyduck",
+        height: 1.2,
+        type: ['water', 'psychic']
+      }, 
+      {
+        name: "Charmander",
+        height: 2.1,
+        type: ['fire', 'dragon']
+      }, 
+      {
+        name: "Squirtle",
+        height: 1.7,
+        type: ['water', 'monster']
+      },
+      {
+        name: "Bulbasaur",
+        height: 0.9,
+        type: ['water', 'monster']
+      },
+      {
+        name: "Pikachu",
+        height: 1.3,
+        type: ['lightning', 'mouse']
+      }
+  ];
+}) ();
+
 
 /* Pokemon larger than 1.8ft are considered "big".
 Pokemon between 1 and 1.7ft are considered "normal", 
