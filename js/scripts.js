@@ -25,7 +25,7 @@ let pokemonRepository = (function (){
       {
         name: "Pikachu",
         height: 1.3,
-        type: ['lightning', 'mouse']
+        type: ['lightning', 'normal']
       }
   ];
 
