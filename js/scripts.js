@@ -47,18 +47,3 @@ console.log(pokemonRepository.getAll());
 pokemonRepository.getAll().forEach(function (pokemon){
   document.write(pokemon.name + ': Height- ' + pokemon.height + ' Type: ' + pokemon.type[0] + ', ' + pokemon.type[1] + '<p>')}
 )
-
-let message = "";
-
-//`for` loop to emphasize big Pokemon
-for (let i = 0; i < pokemonList.length; i++) {
-  if (pokemonList[i].height >2){
-    message = "-Wow, that is big!";
-  } else {
-    message = "";
-  }
-  document.write (
-    `${pokemonList[i].name} (height: ${pokemonList[i].height}) ${message}
-    <br>`
-  );
-}
