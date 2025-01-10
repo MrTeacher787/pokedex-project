@@ -28,21 +28,25 @@ let pokemonRepository = (function (){
         type: ['lightning', 'mouse']
       }
   ];
+
+  function add(pokemon) {
+    pokemonList.push(pokemon);
+  }
+
+  function getAll() {
+    return pokemonList;
+  }
+
+  return {
+    add: add,
+    getAll: getAll
+  };
 }) ();
 
-
-/* Pokemon larger than 1.8ft are considered "big".
-Pokemon between 1 and 1.7ft are considered "normal", 
-and anything below 1ft is considered "tiny". */
-for (let i=0; i <pokemonList.length; i++){
-  if (pokemonList[i].height <2.5 && pokemonList[i].height >1.8){
-    console.log(pokemonList[i].name + " is a big Pokemon!");
-  } else if (pokemonList[i].height <=1.7 && pokemonList[i].height >1){
-    console.log(pokemonList[i].name + " is a normal Pokemon.");
-  } else {
-    console.log(pokemonList[i].name + " is a tiny Pokemon.");
-  }
-}
+console.log(pokemonRepository.getAll());
+pokemonRepository.getAll().forEach(function (pokemon){
+  document.write(pokemon.name + ': Height- ' + pokemon.height + ' Type: ' + pokemon.type[0] + ', ' + pokemon.type[1] + '<p>')}
+)
 
 let message = "";
 
