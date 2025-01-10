@@ -43,6 +43,7 @@ let pokemonRepository = (function (){
   };
 }) ();
 
+pokemonRepository.add( ({ name: 'Mewtwo', height: 3, type: ['psychic', 'dark']}) );
 console.log(pokemonRepository.getAll());
 pokemonRepository.getAll().forEach(function (pokemon){
   document.write(pokemon.name + ': Height- ' + pokemon.height + ' Type: ' + pokemon.type[0] + ', ' + pokemon.type[1] + '<p>')}
