@@ -50,7 +50,7 @@ let pokemonRepository = (function (){
 pokemonRepository.add( ({ name: 'Mewtwo', height: 3, type: ['psychic', 'dark']}) );
 console.log(pokemonRepository.getAll());
 pokemonRepository.getAll().forEach(function (pokemon){
-  let listItem = document.createElement('li') //create list item
+  let listItem = document.createElement('li'); //create list item
   let button = document.createElement('button'); //create button 
   button.innerText = "pokemon.name";
 }
