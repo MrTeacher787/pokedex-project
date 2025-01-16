@@ -33,6 +33,10 @@ let pokemonRepository = (function (){
     pokemonList.push(pokemon);
   }
 
+  function addListItem(pokemon) {
+    let pokemonList = document.querySelector('.pokemon-list');
+  }
+
   function getAll() {
     return pokemonList;
   }
@@ -46,5 +50,8 @@ let pokemonRepository = (function (){
 pokemonRepository.add( ({ name: 'Mewtwo', height: 3, type: ['psychic', 'dark']}) );
 console.log(pokemonRepository.getAll());
 pokemonRepository.getAll().forEach(function (pokemon){
-  document.write(pokemon.name + ': Height- ' + pokemon.height + ' Type: ' + pokemon.type[0] + ', ' + pokemon.type[1] + '<p>')}
+  let listItem = document.createElement('li') //create list item
+  let button = document.createElement('button'); //create button 
+  button.innerText = "pokemon.name";
+}
 )
