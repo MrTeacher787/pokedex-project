@@ -3,30 +3,36 @@ let pokemonRepository = (function (){
   //Pokemon List and attributes
   let pokemonList = [
       {
-        name: "Psyduck",
-        height: 1.2,
-        type: ['water', 'psychic']
-      }, 
-      {
-        name: "Charmander",
-        height: 2.1,
-        type: ['fire', 'dragon']
-      }, 
-      {
-        name: "Squirtle",
-        height: 1.7,
-        type: ['water', 'monster']
+        name: "Bulbasaur",
+        height: 2.04,
+        type: ['grass', 'poison'],
+        category: "seed"
       },
       {
-        name: "Bulbasaur",
-        height: 0.9,
-        type: ['water', 'monster']
+        name: "Charmander",
+        height: 2.0,
+        type: ['fire'],
+        category: "lizard"
+      },
+      {
+        name: "Squirtle",
+        height: 1.08,
+        type: ['water'],
+        category: "tiny turtle"
       },
       {
         name: "Pikachu",
-        height: 1.3,
-        type: ['lightning', 'normal']
-      }
+        height: 1.04,
+        type: ['electric'],
+        category: "mouse"
+      }, 
+      {
+        name: "Psyduck",
+        height: 2.07,
+        type: ['water', 'psychic'],
+        category: "duck"
+      }, 
+      
   ];
 
   function add(pokemon) {
