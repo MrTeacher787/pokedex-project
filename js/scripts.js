@@ -17,7 +17,17 @@ let pokemonRepository = (function (){
       {name: "Weedle", height: 1.00, type: ['bug', 'poison'], category: "hairy bug"},
       {name: "Kakuna", height: 2.00, type: ['bug', 'poison'], category: "cocoon"},
       {name: "Beedrill", height: 3.03, type: ['bug', 'poison'], category: "poison bee"},
-      {name: "Pikachu", height: 1.04, type: ['electric'], category: "mouse"}, 
+      {name: "Pidgey", height: 1.00, type: ['normal', 'flying'], category: "tiny bird"},
+      {name: "Pidgeotto", height: 3.07, type: ['bug', 'poison'], category: "bird"},
+      {name: "Pidgeot", height: 4.11, type: ['bug', 'poison'], category: "bird"},
+      {name: "Rattata", height: 1.00, type: ['normal'], category: "mouse"},
+      {name: "Raticate", height: 2.04, type: ['normal'], category: "mouse"},
+      {name: "Spearow", height: 1.00, type: ['normal', 'flying'], category: "tiny bird"},
+      {name: "Fearow", height: 3.11, type: ['normal', 'flying'], category: "beak"},
+      {name: "Ekans", height: 6.07, type: ['poison'], category: "snake"},
+      {name: "Arbok", height: 11.06, type: ['poison'], category: "cobra"},
+      {name: "Pikachu", height: 1.04, type: ['electric'], category: "mouse"},
+      {name: "Raichu", height: 2.07, type: ['electric'], category: "mouse"}, 
       {name: "Psyduck", height: 2.07, type: ['water', 'psychic'], category: "duck"}, 
       
   ];
