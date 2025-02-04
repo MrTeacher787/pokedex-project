@@ -34,11 +34,9 @@ let pokemonRepository = (function (){
 
   //load the list of Pokemon
   function loadList() {
-    showLoadingMessage("Gotta catch all the info.");
     return fetch(apiUrl).then(function (response) {
       return response.json();
     }).then(function (json) {
-      hideLoadingMessage();
       json.results.forEach(function (item) {
         let pokemon = {
           name: item.name,
@@ -47,17 +45,14 @@ let pokemonRepository = (function (){
         add(pokemon);
       });
     }).catch(function (e) {
-      hideLoadingMessage();
       console.error(e); 
     })
   }
 
   //adding details to Pokemon
   function loadDetails(item) {
-    showLoadingMessage("Gotta catch all the info.");
     let url = item.detailsUrl;
     return fetch(url).then(function (response) {
-      hideLoadingMessage();
       return response.json();
     }).then(function (details) {
       //details to be added
@@ -65,7 +60,6 @@ let pokemonRepository = (function (){
       item.height = details.height;
       item.types = details.types;
     }).catch(function (e) {
-      hideLoadingMessage();
       console.error(e);
     });
   }
