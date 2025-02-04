@@ -27,7 +27,9 @@ let pokemonRepository = (function (){
   }
   //show pokemon details on console
   function showDetails(pokemon) {
-    console.log(pokemon.name);
+    loadDetails(pokemon).then(function () {
+      console.log(pokemon);
+    });    
   }
 
   //load the list of Pokemon
