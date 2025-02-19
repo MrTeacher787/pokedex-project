@@ -71,7 +71,10 @@ let pokemonRepository = (function (){
     });
   }
 
-  
+  function hideModal() {
+    let modalContainer = document.querySelector('#modal-container');
+    modalContainer.classList.remove('is-visible');
+  }
 
   //show pokemon details on console
   function showDetails(pokemon) {
