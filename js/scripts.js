@@ -51,9 +51,9 @@ let pokemonRepository = (function (){
     pokemonHeight.innerText = text;
     let pokemonImage = document.createElement('img');
 
-    pokemonImage.setAttribute('src', img);
-    pokemonImage.setAttribute('width', '100%');
-    pokemonImage.setAttribute('height', '100%');
+    pokemonImage.setAttribute("src", img);
+    pokemonImage.setAttribute("width", "100%");
+    pokemonImage.setAttribute("height", "100%");
     pokemonImage.setAttribute("alt", "Pokemon picture");
     
     modal.appendChild(closeButtonElement);
