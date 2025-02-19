@@ -51,7 +51,7 @@ let pokemonRepository = (function (){
     pokemonHeight.innerText = text;
     let pokemonImage = document.createElement('img');
 
-    pokemonImage.setAttribute('src', img);
+    pokemonImage.setAttribute('src', imgUrl);
     pokemonImage.setAttribute('width', '100%');
     pokemonImage.setAttribute('height', '100%');
     
