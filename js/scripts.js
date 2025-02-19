@@ -26,12 +26,13 @@ let pokemonRepository = (function (){
     let button = document.createElement("button");
     button.innerText = pokemon.name;
     button.classList.add("button-class");
-    listPokemon.appendChild(button);
-    pokemonList.appendChild(listPokemon);
     button.addEventListener('click', function() {
       showDetails(pokemon);
     });
+    listPokemon.appendChild(button);
+    pokemonList.appendChild(listPokemon);    
   }
+  
   //show pokemon details on console
   function showDetails(pokemon) {
     loadDetails(pokemon).then(function () {
