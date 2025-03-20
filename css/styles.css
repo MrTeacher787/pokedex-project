@@ -1,30 +1,29 @@
 body {
-    font-family: "Permanent Marker", serif;
-    font-weight: 400;
-    font-style: normal;
-    color: #970707;
-    background-color: #b3b0b0;
+  font-family: "Permanent Marker", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #970707;
+  background-color: #b3b0b0;
 }
 
-.button-class{
-    background-color: #970707;
-    border: none;
-    color: #fffdfd;
-    padding: 16px 32px;
-    text-align: center;
-    text-decoration: none;
-    display:inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    -webkit-transition-duration: 0.5s;
-    transition-duration: 0.5s;
-    cursor: pointer;
-    
-  }
-  
-  .selected{
-    border: 5px #ee0303;
-  }
+.button-class {
+  background-color: #970707;
+  border: none;
+  color: #fffdfd;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  cursor: pointer;
+}
+
+.selected {
+  border: 5px #ee0303;
+}
 
 /* default hide */
 #modal-container {
@@ -43,30 +42,15 @@ body {
   background: rgba(0, 0, 0, 0.5);
 
   /* to show it above other content */
-  z-index: 999; 
-    
+  z-index: 999;
+
   /* to allow scrolling if the screen is not high enough*/
-  overflow: auto; 
-    
+  overflow: auto;
+
   /* this is used to center the modal */
   display: grid;
   text-align: center;
 }
-
-/*
-.modal{
-  margin: auto;
-  display: inline-block;
-  box-sizing: border-box;
-  background: #fff;
-  padding: 15px;
-  width: 500px;
-  height: 300px;
-  max-width: 700px;
-  text-align: left;
-
-}
-*/
 
 .modal-close {
   float: right;
