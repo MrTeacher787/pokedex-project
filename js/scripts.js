@@ -72,7 +72,6 @@ let pokemonRepository = (function () {
     modalBody.appendChild(pokemonImage);
 
     $("#modal").modal({ show: true });
-
   }
 
   //show pokemon details on console
