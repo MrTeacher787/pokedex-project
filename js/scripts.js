@@ -29,7 +29,7 @@ let pokemonRepository = (function () {
     //button in each card
     let button = document.createElement("button");
     button.innerText = pokemon.name;
-    button.classList.add("btn", "btn-primary", "mt-auto");
+    button.classList.add("btn", "btn-primary", "mt-auto", "button-class ");
     button.addEventListener("click", function () {
       showDetails(pokemon);
     });
