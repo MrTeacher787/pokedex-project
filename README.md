@@ -15,4 +15,4 @@
 ### *[Bootstrap]
 
 ## Getting Started
-### It's very simple to get started! All you need to do is visit the following website [https://mrteacher787.github.io/pokedex-project/] (https://mrteacher787.github.io/pokedex-project/) and click on all your OG favorite Pokemons!
+### It's very simple to get started! All you need to do is visit the following website [https://mrteacher787.github.io/pokedex-project/](https://mrteacher787.github.io/pokedex-project/) and click on all your OG favorite Pokemons!
