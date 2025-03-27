@@ -15,4 +15,12 @@
 ### *[Bootstrap]
 
 ## Getting Started
-### It's very simple to get started! All you need to do is visit the following website [https://mrteacher787.github.io/pokedex-project/](https://mrteacher787.github.io/pokedex-project/) and click on all your OG favorite Pokemons!
+### It's very simple to get started! All you need to do is visit the following website [https://mrteacher787.github.io/pokedex-project/](https://mrteacher787.github.io/pokedex-project/) and click on all your OG favorite Pokemon!
+
+## Contact
+### Ivan G. Irizarry-Oquendo:
+#### -Github: [https://github.com/MrTeacher787](https://github.com/MrTeacher787)
+#### -X: [https://twitter.com/Predaking83](https://twitter.com/Predaking83)
+#### -Linkedin: [https://linkedin.com/in/ivan-g-irizarry-oquendo-3969478a/](https://linkedin.com/in/ivan-g-irizarry-oquendo-3969478a/)
+### Project Link:
+#### [https://mrteacher787.github.io/pokedex-project/](https://mrteacher787.github.io/pokedex-project/)
